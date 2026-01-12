@@ -9,7 +9,7 @@ public class GithubCicdApplication {
 
     @GetMapping("/welcome")
     public String Welcome(){
-       return "Welcome to CI/CD";
+       return "Welcome to CI/CD ";
     }
 
 //    echo "# CI-CD-pipeline" >> README.md
